@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>大事件-注册/登录</title>
+    <!-- 引入favicon图标 -->
+    <link rel="shortcut icon" href="/bitbug_favicon.ico">
     <!-- 引入layui的css样式 -->
     <link rel="stylesheet" href="/assets/lib/layui/css/layui.css">
     <!-- 引入自己的css样式 -->
@@ -26,15 +28,15 @@
             <form class="layui-form" id="form_login">
                 <!-- 用户名输入 -->
                 <div class="layui-form-item">
-                    <i class="layui-icon layui-icon-username"></i> 
-                    <input type="text" name="username" value="我爱陈钰琪"  required lay-verify="required" placeholder="请输入用户名"
+                    <i class="layui-icon layui-icon-username"></i>
+                    <input type="text" name="username" value="陈钰琪小可爱" required lay-verify="required" placeholder="请输入用户名"
                         autocomplete="off" class="layui-input">
                 </div>
                 <!-- 密码 -->
                 <div class="layui-form-item">
-                    <i class="layui-icon layui-icon-password"></i> 
-                    <input type="password"  value="123456789" name="password" required lay-verify="required|psw" placeholder="请输入密码"
-                        autocomplete="off" class="layui-input">
+                    <i class="layui-icon layui-icon-password"></i>
+                    <input type="password" value="123456789" name="password" required lay-verify="required|psw"
+                        placeholder="请输入密码" autocomplete="off" class="layui-input">
                 </div>
                 <!-- 登录按钮 -->
                 <div class="layui-form-item">
@@ -51,19 +53,19 @@
             <form class="layui-form" id="form_reg">
                 <!-- 用户名输入 -->
                 <div class="layui-form-item">
-                    <i class="layui-icon layui-icon-username"></i> 
+                    <i class="layui-icon layui-icon-username"></i>
                     <input type="text" name="username" required lay-verify="required" placeholder="请输入用户名"
                         autocomplete="off" class="layui-input">
                 </div>
                 <!-- 密码 -->
                 <div class="layui-form-item">
-                    <i class="layui-icon layui-icon-password"></i> 
+                    <i class="layui-icon layui-icon-password"></i>
                     <input type="password" name="password" required lay-verify="required|psw" placeholder="请输入密码"
                         autocomplete="off" class="layui-input">
                 </div>
                 <!-- 确认密码 -->
                 <div class="layui-form-item">
-                    <i class="layui-icon layui-icon-password"></i> 
+                    <i class="layui-icon layui-icon-password"></i>
                     <input type="password" name="password" required lay-verify="required|psw|repsw" placeholder="再次输入密码"
                         autocomplete="off" class="layui-input">
                 </div>
